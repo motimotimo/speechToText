@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="/socket.io/socket.io.js" async></script>
+    <script src="./javascripts/client.js" async></script>
+  </head>
+  <body>
+
+    <div id="btn-area" style="margin-bottom: 15px;"></div>
+      <button onClick="startRecording()">start</button>
+      <button onClick="stopRecording()">stop</button>
+    </div>
+
+    <div id="text-area">
+      <h2 class="title">テキスト化表示エリア</h2>
+      <p id="speech-to-text-area" style="font-size: 20px; font-weight: bold; margin: 0;"></p>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,39 @@
+
+#text-area {
+    background-color: white;
+    width: 600px;
+    border: 1px solid #b9b9b9;
+    border-radius: 6px;
+    padding: 2px 14px;
+    margin: 10px 0px;
+}
+
+h2 {
+    font-size: 17px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #ababab;
+}
+
+ul {
+    list-style: none;
+    width: 540px;
+    margin: 0;
+    padding: 8px;
+    padding-top: 0px;
+}
+
+li.time {
+    font-size: 8px;
+    padding: 8px;
+    padding-bottom: 0;
+    color: #6d6d6d;
+}
+
+li.txt {
+    background-color: #f6ffe7;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #e9ff71;
+    padding: 8px;
+}
+
